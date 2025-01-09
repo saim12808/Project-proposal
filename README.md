@@ -93,30 +93,10 @@ User requirements represent what end-users expect from the system. These are wri
    - I want to participate in community discussions or forums on the platform.
    - I want to see stories and testimonials from other users to inspire trust and participation.
   
-     Here's a comprehensive framework to help you gather requirements and define them for your blockchain-based charity platform with AI integration:
 
----
+# * Software Requirements*
 
-### *1. Requirement Gathering*
-
-#### Stakeholders
-- *Donors*: Individuals or organizations donating funds or resources.
-- *Recipients*: Individuals or groups receiving the funds/resources.
-- *Platform Administrators*: Manage and maintain the platform.
-- *Regulators*: Ensure compliance with relevant laws and standards.
-- *AI System*: Validate recipient authenticity and monitor project legitimacy.
-
-#### Methods to Gather Requirements
-- *Interviews*: Talk to potential donors, NGOs, and administrators.
-- *Surveys*: Gather preferences on platform features from target users.
-- *Workshops*: Collaborate with stakeholders to brainstorm functionalities.
-- *Competitor Analysis*: Study existing charity platforms.
-
----
-
-### *2. Software Requirements*
-
-#### Functional Requirements
+# Functional Requirements
 - *User Registration and Authentication*:
   - Secure registration for donors, recipients, and admins.
   - Role-based access control.
@@ -145,7 +125,7 @@ User requirements represent what end-users expect from the system. These are wri
   - Direct messaging between donors and recipients.
   - Notifications for updates about funded projects.
 
-#### Non-Functional Requirements
+# Non-Functional Requirements
 - *Scalability*: Handle a large number of users and transactions.
 - *Security*: Implement end-to-end encryption, secure wallet integration, and compliance with GDPR.
 - *Performance*: Ensure low latency for transactions and real-time updates.
@@ -154,9 +134,9 @@ User requirements represent what end-users expect from the system. These are wri
 
 ---
 
-### *3. System Requirements*
+# System Requirements*
 
-#### Hardware Requirements
+# Hardware Requirements
 - *Server Infrastructure*:
   - High-performance servers for hosting the blockchain nodes and AI systems.
   - Data storage for user information, transaction data, and AI models.
@@ -164,23 +144,21 @@ User requirements represent what end-users expect from the system. These are wri
 - *Client Devices*:
   - Compatibility with desktops, smartphones, and tablets.
 
-#### Software Requirements
+# Software Requirements
 - *Blockchain Framework*: Ethereum, Hyperledger, or Binance Smart Chain.
 - *AI Frameworks*: TensorFlow or PyTorch for model development.
 - *Development Tools*: Node.js, Python, or Solidity for backend development.
 - *Database*: MongoDB or PostgreSQL for storing non-blockchain data.
 - *Cloud Services*: AWS, Azure, or Google Cloud for scalable infrastructure.
 
----
+#  Functional vs. Non-Functional Requirements*
 
-### *4. Functional vs. Non-Functional Requirements*
-
-#### Functional Requirements
+# Functional Requirements
 - Enable donations via cryptocurrency.
 - Display recipient profiles with transparency indicators.
 - Allow admins to audit AI decision logs for fairness.
 
-#### Non-Functional Requirements
+# Non-Functional Requirements
 - System response time must not exceed 2 seconds for any action.
 - Platform should support at least 10,000 concurrent users.
 - Ensure data backups occur daily with 100% data integrity.
